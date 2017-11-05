@@ -1,0 +1,7 @@
+7_prac.cpp:15:30: error: ISO C++ forbids declaration of ‘apply_transform’ with no type [-fpermissive]
+7_prac.cpp: In member function ‘int apply_tansform::apply_transform(int*, int)’:
+7_prac.cpp:15:33: error: only constructors take member initializers
+7_prac.cpp: In function ‘int main()’:
+7_prac.cpp:39:1: error: ‘apply_transform’ was not declared in this scope
+7_prac.cpp:39:17: error: expected ‘;’ before ‘bt’
+7_prac.cpp:41:39: error: ‘bt’ was not declared in this scope

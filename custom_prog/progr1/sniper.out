@@ -1,0 +1,942 @@
+*****************************
+#Cores=1
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.08 seconds
+[SNIPER] Simulated 1.4M instructions, 1.9M cycles, 0.72 IPC
+[SNIPER] Simulation speed 198.0 KIPS (66.0 KIPS / target core - 15153.4ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.49 seconds
+*****************************
+#Cores=2
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.15 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 196.0 KIPS (65.3 KIPS / target core - 15302.9ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.55 seconds
+*****************************
+#Cores=3
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.09 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 197.7 KIPS (65.9 KIPS / target core - 15174.1ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.52 seconds
+*****************************
+#Cores=4
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.03 seconds
+[SNIPER] Simulated 1.4M instructions, 1.9M cycles, 0.72 IPC
+[SNIPER] Simulation speed 199.5 KIPS (66.5 KIPS / target core - 15039.7ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.45 seconds
+*****************************
+#Cores=5
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.05 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 198.8 KIPS (66.3 KIPS / target core - 15090.4ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.48 seconds
+*****************************
+#Cores=6
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.00 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 200.4 KIPS (66.8 KIPS / target core - 14969.4ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.40 seconds
+*****************************
+#Cores=7
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.03 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 199.6 KIPS (66.5 KIPS / target core - 15032.3ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.42 seconds
+*****************************
+#Cores=8
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.03 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 199.6 KIPS (66.5 KIPS / target core - 15027.8ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.43 seconds
+*****************************
+#Cores=9
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.05 seconds
+[SNIPER] Simulated 1.4M instructions, 1.9M cycles, 0.72 IPC
+[SNIPER] Simulation speed 199.0 KIPS (66.3 KIPS / target core - 15078.2ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.48 seconds
+*****************************
+#Cores=10
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.22 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 194.2 KIPS (64.7 KIPS / target core - 15450.4ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.67 seconds
+*****************************
+#Cores=11
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.07 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 198.4 KIPS (66.1 KIPS / target core - 15120.2ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.51 seconds
+*****************************
+#Cores=12
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.08 seconds
+[SNIPER] Simulated 1.4M instructions, 1.9M cycles, 0.72 IPC
+[SNIPER] Simulation speed 198.2 KIPS (66.1 KIPS / target core - 15137.3ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.50 seconds
+*****************************
+#Cores=13
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.01 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 200.1 KIPS (66.7 KIPS / target core - 14996.1ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.42 seconds
+*****************************
+#Cores=14
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.02 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 199.9 KIPS (66.6 KIPS / target core - 15008.6ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.43 seconds
+*****************************
+#Cores=15
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 6.98 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 200.9 KIPS (67.0 KIPS / target core - 14934.0ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.40 seconds
+*****************************
+#Cores=16
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.02 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 199.9 KIPS (66.6 KIPS / target core - 15006.5ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.43 seconds
+*****************************
+#Cores=17
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.09 seconds
+[SNIPER] Simulated 1.4M instructions, 1.9M cycles, 0.72 IPC
+[SNIPER] Simulation speed 197.7 KIPS (65.9 KIPS / target core - 15173.6ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.50 seconds
+*****************************
+#Cores=18
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.02 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 199.8 KIPS (66.6 KIPS / target core - 15012.6ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.42 seconds
+*****************************
+#Cores=19
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.04 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 199.1 KIPS (66.4 KIPS / target core - 15068.2ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.45 seconds
+*****************************
+#Cores=20
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 6.99 seconds
+[SNIPER] Simulated 1.4M instructions, 1.9M cycles, 0.72 IPC
+[SNIPER] Simulation speed 200.7 KIPS (66.9 KIPS / target core - 14950.9ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.40 seconds
+*****************************
+#Cores=21
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.00 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 200.3 KIPS (66.8 KIPS / target core - 14978.5ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.40 seconds
+*****************************
+#Cores=22
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 6.99 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 200.5 KIPS (66.8 KIPS / target core - 14961.5ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.39 seconds
+*****************************
+#Cores=23
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.08 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 198.1 KIPS (66.0 KIPS / target core - 15142.3ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.49 seconds
+*****************************
+#Cores=24
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 6.97 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 201.3 KIPS (67.1 KIPS / target core - 14905.6ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.38 seconds
+*****************************
+#Cores=25
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.36 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 190.4 KIPS (63.5 KIPS / target core - 15754.0ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.79 seconds
+*****************************
+#Cores=26
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.09 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 197.9 KIPS (66.0 KIPS / target core - 15155.8ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.49 seconds
+*****************************
+#Cores=27
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.06 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 198.6 KIPS (66.2 KIPS / target core - 15109.4ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.47 seconds
+*****************************
+#Cores=28
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.07 seconds
+[SNIPER] Simulated 1.4M instructions, 1.9M cycles, 0.72 IPC
+[SNIPER] Simulation speed 198.5 KIPS (66.2 KIPS / target core - 15115.0ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.49 seconds
+*****************************
+#Cores=29
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.04 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 199.3 KIPS (66.4 KIPS / target core - 15055.7ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.45 seconds
+*****************************
+#Cores=30
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.52 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 186.5 KIPS (62.2 KIPS / target core - 16088.5ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.94 seconds
+*****************************
+#Cores=31
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.50 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 187.0 KIPS (62.3 KIPS / target core - 16046.3ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.91 seconds
+*****************************
+#Cores=32
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.79 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 180.0 KIPS (60.0 KIPS / target core - 16665.1ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 8.21 seconds
+*****************************
+#Cores=33
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.28 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 192.5 KIPS (64.2 KIPS / target core - 15582.0ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.69 seconds
+*****************************
+#Cores=34
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.50 seconds
+[SNIPER] Simulated 1.4M instructions, 1.9M cycles, 0.72 IPC
+[SNIPER] Simulation speed 187.0 KIPS (62.3 KIPS / target core - 16046.9ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.93 seconds
+*****************************
+#Cores=35
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.57 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 185.4 KIPS (61.8 KIPS / target core - 16185.3ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.96 seconds
+*****************************
+#Cores=36
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.77 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 180.6 KIPS (60.2 KIPS / target core - 16609.9ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 8.16 seconds
+*****************************
+#Cores=37
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.22 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 194.4 KIPS (64.8 KIPS / target core - 15435.6ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.65 seconds
+*****************************
+#Cores=38
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.15 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 196.1 KIPS (65.4 KIPS / target core - 15301.1ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.57 seconds
+*****************************
+#Cores=39
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.29 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 192.5 KIPS (64.2 KIPS / target core - 15585.5ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.70 seconds
+*****************************
+#Cores=40
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.13 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 196.8 KIPS (65.6 KIPS / target core - 15242.1ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.55 seconds
+*****************************
+#Cores=41
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.33 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 191.4 KIPS (63.8 KIPS / target core - 15671.9ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.73 seconds
+*****************************
+#Cores=42
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+1
+6
+7
+8
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 7.22 seconds
+[SNIPER] Simulated 1.4M instructions, 2.0M cycles, 0.72 IPC
+[SNIPER] Simulation speed 194.1 KIPS (64.7 KIPS / target core - 15454.4ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[SNIPER] End
+[SNIPER] Elapsed time: 7.67 seconds
+*****************************
+#Cores=43
+***************************
+
+[SNIPER] Start
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using Pin frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+[SNIPER] End
+[SNIPER] Elapsed time: 5.38 seconds
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 5.05 seconds
+[SNIPER] Simulated 1.2M instructions, 1.6M cycles, 0.78 IPC
+[SNIPER] Simulation speed 240.8 KIPS (80.3 KIPS / target core - 12456.4ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
