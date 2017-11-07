@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Make threads Run on specific core &#8212; Allocation Policies on Multicore Processor 1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/scrolls.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/print.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/theme_extras.js"></script>
+    <link rel="top" title="Allocation Policies on Multicore Processor 1 documentation" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div id="content">
+      <div class="header">
+        <h1 class="heading"><a href="index.html"
+          title="back to the documentation overview"><span>Make threads Run on specific core</span></a></h1>
+      </div>
+      <div class="relnav" role="navigation" aria-label="related navigation">
+        <a href="#">Make threads Run on specific core</a>
+      </div>
+      <div id="contentwrapper">
+        <div id="toc" role="navigation" aria-label="table of contents navigation">
+          <h3>Table Of Contents</h3>
+          <ul>
+<li><a class="reference internal" href="#">Make threads Run on specific core</a><ul>
+<li><a class="reference internal" href="#run-program-or-process-on-specific-cpu-cores-on-linux">Run program or process on specific CPU cores on linux</a></li>
+<li><a class="reference internal" href="#install-taskset-on-linux">Install taskset on Linux</a></li>
+<li><a class="reference internal" href="#view-the-cpu-affinity-of-a-running-process">View the CPU Affinity of a Running Process</a></li>
+<li><a class="reference internal" href="#pin-a-running-process-to-particular-cpu-core-s">Pin a Running Process to Particular CPU Core(s)</a></li>
+<li><a class="reference internal" href="#launch-a-program-on-specific-cpu-cores">Launch a Program on Specific CPU Cores</a></li>
+<li><a class="reference internal" href="#dedicate-a-whole-cpu-core-to-a-particular-program">Dedicate a Whole CPU Core to a Particular Program</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+  <div class="section" id="make-threads-run-on-specific-core">
+<h1>Make threads Run on specific core<a class="headerlink" href="#make-threads-run-on-specific-core" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="run-program-or-process-on-specific-cpu-cores-on-linux">
+<h2>Run program or process on specific CPU cores on linux<a class="headerlink" href="#run-program-or-process-on-specific-cpu-cores-on-linux" title="Permalink to this headline">¶</a></h2>
+<p>One operating system (OS) support often exploited to run performance-critical applications on multi-core processors is so-called &#8220;processor affinity&#8221; or &#8220;CPU pinning&#8221;. This is an OS-specific feature that &#8220;binds&#8221; a running process or program to particular CPU core(s).</p>
+<p>Binding a program to specific CPU cores can be beneficial in several scenarios. For example, when an application with highly cache-bound workload runs together with other CPU-intensive jobs, pinning the application to a specific CPU would reduce CPU cache misses. Also, when two processes communicate via shared memory intensively, scheduling both processes on the cores in the same NUMA domain would speed up their performance.</p>
+<p>To assign particular CPU cores to a program or process, you can use <strong>taskset</strong>, a command line tool for retrieving or setting a process&#8217; CPU affinity on Linux.</p>
+</div>
+<div class="section" id="install-taskset-on-linux">
+<h2>Install taskset on Linux<a class="headerlink" href="#install-taskset-on-linux" title="Permalink to this headline">¶</a></h2>
+<p>The taskset tool is part of &#8220;util-linux&#8221; package in Linux, and most Linux distros come with the package pre-installed by default. If taskset is not available on your Linux system, install it as follows.</p>
+<p>To install taskset-&gt;</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">util</span><span class="o">-</span><span class="n">linux</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="view-the-cpu-affinity-of-a-running-process">
+<h2>View the CPU Affinity of a Running Process<a class="headerlink" href="#view-the-cpu-affinity-of-a-running-process" title="Permalink to this headline">¶</a></h2>
+<p>To retrieve the CPU affinity information of a process, use the following format. taskset returns the current CPU affinity in a hexadecimal bitmask format.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">taskset</span> <span class="o">-</span><span class="n">p</span> <span class="o">&lt;</span><span class="n">PID</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>For example, to check the CPU affinity of a process with PID 2915:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ taskset -p 2915
+pid 2915&#39;s current affinity mask: ff
+</pre></div>
+</div>
+<p>The lowest bit in a hexadecimal bitmask corresponds to core ID 0, the second lowest bit from the right to core ID 1, the third lowest bit to core ID 2, etc. So for example, a CPU affinity &#8220;0x11&#8221; represents CPU core 0 and 4.</p>
+<p><strong>taskset</strong> can show CPU affinity as a list of processors instead of a bitmask, which is easier to read. To use this format, run taskset with &#8220;-c&#8221; option. For example:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ taskset -cp 2915
+pid 2915&#39;s current affinity list: 0-7
+</pre></div>
+</div>
+</div>
+<div class="section" id="pin-a-running-process-to-particular-cpu-core-s">
+<h2>Pin a Running Process to Particular CPU Core(s)<a class="headerlink" href="#pin-a-running-process-to-particular-cpu-core-s" title="Permalink to this headline">¶</a></h2>
+<p>Using taskset, you can &#8220;pin&#8221; (or assign) a running process to particular CPU core(s). For that, use the following format.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ taskset -p &lt;COREMASK&gt; &lt;PID&gt;
+$ taskset -cp &lt;CORE-LIST&gt; &lt;PID&gt;
+</pre></div>
+</div>
+<p>For example, to assign a process to CPU core 0 and 4, do the following.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ taskset -p 0x11 9030
+
+pid 9030&#39;s current affinity mask: ff
+pid 9030&#39;s new affinity mask: 11
+</pre></div>
+</div>
+<p>Or equivalently</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ taskset -cp 0,4 9030
+</pre></div>
+</div>
+</div>
+<div class="section" id="launch-a-program-on-specific-cpu-cores">
+<h2>Launch a Program on Specific CPU Cores<a class="headerlink" href="#launch-a-program-on-specific-cpu-cores" title="Permalink to this headline">¶</a></h2>
+<p><strong>taskset</strong> also allows you to launch a new program as pinned to specific CPU cores. For that, use the following format.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">taskset</span> <span class="o">&lt;</span><span class="n">COREMASK</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">EXECUTABLE</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>For example, to launch vlc program on a CPU core 0, use the following command.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ taskset 0x1 vlc
+</pre></div>
+</div>
+</div>
+<div class="section" id="dedicate-a-whole-cpu-core-to-a-particular-program">
+<h2>Dedicate a Whole CPU Core to a Particular Program<a class="headerlink" href="#dedicate-a-whole-cpu-core-to-a-particular-program" title="Permalink to this headline">¶</a></h2>
+<p>While taskset allows a particular program to be assigned to certain CPUs, that does not mean that no other programs or processes will be scheduled on those CPUs. If you want to prevent this and dedicate a whole CPU core to a particular program, you can use &#8220;isolcpus&#8221; kernel parameter, which allows you to reserve the CPU core during boot.</p>
+<p>Add the kernel parameter &#8220;isolcpus=&lt;CPU_ID&gt;&#8221; to the boot loader during boot or GRUB configuration file. Then the Linux scheduler will not schedule any regular process on the reserved CPU core(s), unless specifically requested with taskset. For example, to reserve CPU cores 0 and 1, add &#8220;isolcpus=0,1&#8221; kernel parameter. Upon boot, then use taskset to safely assign the reserved CPU cores to your program.</p>
+</div>
+</div>
+
+
+      </div>
+    </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2017, Abhishek Tiwari.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.6.
+    </div>
+  </body>
+</html>

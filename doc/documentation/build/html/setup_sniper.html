@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Sniper Setup &#8212; Allocation Policies on Multicore Processor 1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/scrolls.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/print.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/theme_extras.js"></script>
+    <link rel="top" title="Allocation Policies on Multicore Processor 1 documentation" href="index.html" />
+    <link rel="next" title="Sniper Tutorial" href="sniper.html" />
+    <link rel="prev" title="Welcome to Allocation Policies on Multicore Processor’s documentation!" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div id="content">
+      <div class="header">
+        <h1 class="heading"><a href="index.html"
+          title="back to the documentation overview"><span>Sniper Setup</span></a></h1>
+      </div>
+      <div class="relnav" role="navigation" aria-label="related navigation">
+        <a href="index.html">&laquo; Welcome to Allocation Policies on Multicore Processor&#8217;s documentation!</a> |
+        <a href="#">Sniper Setup</a>
+        | <a href="sniper.html">Sniper Tutorial &raquo;</a>
+      </div>
+      <div id="contentwrapper">
+        <div id="toc" role="navigation" aria-label="table of contents navigation">
+          <h3>Table Of Contents</h3>
+          <ul>
+<li><a class="reference internal" href="#">Sniper Setup</a><ul>
+<li><a class="reference internal" href="#dependencies">Dependencies</a></li>
+<li><a class="reference internal" href="#download-sniper-source">Download Sniper source</a></li>
+<li><a class="reference internal" href="#download-pin-instrumentation-tool">Download Pin Instrumentation Tool</a></li>
+<li><a class="reference internal" href="#download-boost">Download Boost</a></li>
+<li><a class="reference internal" href="#install-sniper">Install sniper</a></li>
+<li><a class="reference internal" href="#add-environment-variable">Add Environment Variable</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        
+  <div class="section" id="sniper-setup">
+<h1>Sniper Setup<a class="headerlink" href="#sniper-setup" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="dependencies">
+<h2>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h2>
+<p>To setup sniper following are the setup dependencies-&gt;</p>
+<p>Worked well on</p>
+<ul class="simple">
+<li>Ubuntu 12.04</li>
+<li>Install following packages on Ubuntu 12.04</li>
+</ul>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">zlib1g</span><span class="o">-</span><span class="n">dev</span> <span class="n">libbz2</span><span class="o">-</span><span class="n">dev</span> <span class="n">g</span><span class="o">++</span> <span class="n">libsqlite3</span><span class="o">-</span><span class="n">dev</span>  <span class="n">libboost</span><span class="o">-</span><span class="n">dev</span>  <span class="n">m4</span> \
+<span class="n">xsltproc</span> <span class="n">libx11</span><span class="o">-</span><span class="n">dev</span> <span class="n">libxext</span><span class="o">-</span><span class="n">dev</span> <span class="n">libxt</span><span class="o">-</span><span class="n">dev</span> <span class="n">libxmu</span><span class="o">-</span><span class="n">dev</span>  <span class="n">libxi</span><span class="o">-</span><span class="n">dev</span> <span class="n">gfortran</span>
+</pre></div>
+</div>
+<p>Make a folder <strong>sniper</strong> where every component needed for sniper is stored. All the paths would relative to this sniper folder only i.e. <strong>sniper/folder_a</strong> means /path/to/sniper/folder_a</p>
+</div>
+<div class="section" id="download-sniper-source">
+<h2>Download Sniper source<a class="headerlink" href="#download-sniper-source" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>You should request the Download link of sniper simulator from their website&#8221; snipersim.org&#8221; and wait until they send the download link  to your Email</li>
+<li>I downloaded the latest version sniper 6.1 (.tbz file) and extracted it and renamed folder <strong>sniper/sniper_6.1</strong> to <strong>sniper/sniper</strong> (with respect to sniper folder i.e. extracted tbz file inside sniper folder previous made and renamed the extracted folder to sniper so there would be sniper/sniper folder</li>
+<li>you can use the terminal to install and extract sniper by using:</li>
+</ul>
+<dl class="docutils">
+<dt>::</dt>
+<dd>open terminal by pressing  Ctrl + Alt + T
+type :cd Downloads
+then write : wget &lt; download link you got by mail&gt;</dd>
+</dl>
+<p>then extract it as i wrote previously.</p>
+</div>
+<div class="section" id="download-pin-instrumentation-tool">
+<h2>Download Pin Instrumentation Tool<a class="headerlink" href="#download-pin-instrumentation-tool" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>I installed the latest version but it is incompatible, so, i installed PIN 71313  as sniper team guide us in one topic in the group,</li>
+<li>You can download it from this link <a class="reference external" href="https://software.intel.com/en-us/articles/pin-a-binary-instrumentation-tool-downloads">Pin Tool</a></li>
+<li>Then i extracted it to a folder named sniper/pin_kit, i created this folder in a sniper folder.</li>
+<li>notice – you now have 2 folders in you sniper dir – pin and pin_kit</li>
+</ul>
+</div>
+<div class="section" id="download-boost">
+<h2>Download Boost<a class="headerlink" href="#download-boost" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Download Boost (it might work without this step..)</li>
+<li>This link is usefull:  <a class="reference external" href="http://sourceforge.net/projects/boost/files/boost/1.59.0/">Boost_1.59.0</a>.</li>
+<li>I installed the latest version 1_59_0 then extracted it and moved it in the sniper folder</li>
+</ul>
+</div>
+<div class="section" id="install-sniper">
+<h2>Install sniper<a class="headerlink" href="#install-sniper" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Now your environment is ready for installing sniper,</li>
+<li>Go to terminal and cd sniper</li>
+</ul>
+<div class="highlight-default"><div class="highlight"><pre><span></span>~/sniper$ make -j 4 #(for 4 cores)  this number is dependent on your processor
+cores in your machine.
+</pre></div>
+</div>
+<p>verify installation by applying a test run :</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>~/sniper$ cd test/fft
+~/sniper/test/fft$ make run
+</pre></div>
+</div>
+</div>
+<div class="section" id="add-environment-variable">
+<h2>Add Environment Variable<a class="headerlink" href="#add-environment-variable" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span>export PATH=${PATH}:${HOME}/sniper/sniper
+SNIPER_ROOT=$PATH:${HOME}/sniper/sniper
+</pre></div>
+</div>
+<p><em>Setup Completed</em></p>
+</div>
+</div>
+
+
+      </div>
+    </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2017, Abhishek Tiwari.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.6.
+    </div>
+  </body>
+</html>
